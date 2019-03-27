@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import Home from '../components/dashboard/Home';
@@ -11,13 +11,15 @@ export default class Routes extends Component {
   render() {
     return (
       <main>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/pagereact" component={PageReact} />
-          <Route path="/pageredux" component={PageRedux} />
-          <Route path="/udacity" component={Udacity} />
-          <Route path="/newpost" component={NewPost} />
-        </Switch>
+        <Fragment>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/pagereact" component={PageReact} />
+            <Route path="/pageredux" component={PageRedux} />
+            <Route path="/udacity" component={Udacity} />
+            <Route path="/newpost" component={NewPost} />
+          </Switch>
+        </Fragment>
       </main>
     );
   }

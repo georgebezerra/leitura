@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import LoadingBar from 'react-redux-loading';
 import Routes from './Routes';
@@ -15,12 +15,14 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <LoadingBar />
-        <div className="container">
-          <Header />
-          <Nav />
-          <Routes />
-        </div>
+        <Fragment>
+          <LoadingBar />
+          <div className="container">
+            <Header />
+            <Nav />
+            <Routes />
+          </div>
+        </Fragment>
       </BrowserRouter>
     );
   }

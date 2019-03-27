@@ -1,9 +1,10 @@
 const api = 'http://localhost:3001';
 
 const headers = {
-  Accep: 'application/json',
-  Authorization: 'whatever-you-want'
-};
+  'Accep': 'application/json',
+  'Content-Type': 'application/json',
+  'Authorization': 'whatever-you-want'
+}
 
 export const deletePost = id =>
   fetch(`${api}/posts/${id}`, {

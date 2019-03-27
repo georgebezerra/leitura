@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-/*
-const Menu = styled.ul`
- padding-left: 0;
-  list-style: none;
-  text-align: center;
-  margin: 2rem 0rem 0rem 0rem;
-`;
-const Lista = styled.li`
- width: 5rem;
-  display: inline-block;
-  text-align: center;
-  margin: 1rem 1rem 1rem 1rem;
-  list-style-type: none;
-  text-decoration: none;
-  border: #00f solid 0.1rem;
-  box-shadow: 0.1rem 0.1rem #000;
-`;
-*/
 h1 {
   color: #244aa8;
 }
@@ -84,9 +66,15 @@ input.pesquisar {
 .remove {
   float: right;
   margin-top: -2rem;
-  /* width: 7vw;
-  height: 3vh; 
-  text-align: center;
-  line-height: 2rem;
- */
+}
+
+.newpost {
+  float: right;
+  width: 5rem;
+  color: #244aa8;
+  text-decoration: none;
+  background-color: #fff;
+  border: #00f solid 0.1rem;
+  margin: -3rem 14rem 0rem 0rem;
+  box-shadow: 0.1rem 0.1rem #000;
 }

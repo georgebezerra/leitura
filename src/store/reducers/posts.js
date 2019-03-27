@@ -3,7 +3,7 @@ import { RECEIVE_POSTS, ADD_POST } from '../actions/posts';
 export default function posts(state = {}, action) {
   switch (action.type) {
     case RECEIVE_POSTS:
-      console.log('REDUCE RECEIVE TOOLS', action.tools);
+      // console.log('REDUCE RECEIVE TOOLS', action.tools);
       return {
         ...state,
         ...action.posts.reduce((newPost, i) => {
@@ -12,7 +12,7 @@ export default function posts(state = {}, action) {
         }, {})
       };
     case ADD_POST:
-      console.log('REDUCE RECEIVE TOOLS', state);
+      // console.log('REDUCE RECEIVE TOOLS', state);
       return {
         ...state,
         ...action.post
