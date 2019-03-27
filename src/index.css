@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/*
+const Menu = styled.ul`
+ padding-left: 0;
+  list-style: none;
+  text-align: center;
+  margin: 2rem 0rem 0rem 0rem;
+`;
+const Lista = styled.li`
+ width: 5rem;
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 1rem 1rem 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  border: #00f solid 0.1rem;
+  box-shadow: 0.1rem 0.1rem #000;
+`;
+*/
+h1 {
+  color: #244aa8;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  margin: 2rem 0rem 0rem 0rem;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  /* width: 50%; */
+  margin-top: 5rem;
+  border: solid 1px #e1e7fd;
+}
+
+.busca {
+  margin: 2rem 0rem 0rem 0.5rem;
+  box-shadow: 0.1rem 0.1rem #000;
+}
+
+input.pesquisar {
+  font-family: FontAwesome;
+}
+
+.tag {
+  margin: 2.5rem 5rem 0rem 1rem;
+}
+.add {
+  width: 7vw;
+  height: 4vh;
+  text-align: center;
+  line-height: 1.5rem;
+  border: #000 solid 0.1rem;
+  margin: 2rem 0rem 0rem 10.7rem;
+  box-shadow: 0.1rem 0.1rem #000;
+}
+
+.addtool {
+  width: 7vw;
+  height: 4vh;
+  text-align: center;
+  line-height: 1.5rem;
+  border: #000 solid 0.1rem;
+  margin: 2rem 0rem 3rem 40rem;
+  box-shadow: 0.1rem 0.1rem #000;
+}
+
+.remove {
+  float: right;
+  margin-top: -2rem;
+  /* width: 7vw;
+  height: 3vh; 
+  text-align: center;
+  line-height: 2rem;
+ */
+}
